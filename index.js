@@ -66,6 +66,7 @@ inquirer
         },
     ])
     .then((response) => {
+        // log inputs to responses
         console.log(response);
 
         const readme = generateMarkdown(response)

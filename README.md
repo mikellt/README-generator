@@ -24,6 +24,9 @@
     3. Answer the question with as much details as you can
     4. Review the generated README.md file
     5. Edit accordingly
+  ![image](./assets/readme.JPG)
+  
+  ![image](./assets/readme2.JPG)
 
   https://youtu.be/A52fm2Lj8Hg
 
