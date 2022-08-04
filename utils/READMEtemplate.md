@@ -1,19 +1,41 @@
-# ${title}
+# ${data.title} ${renderLicenseBadge(data.license)}
 
-## Description
-## Usage
-## Installation
-## Contribution
-## Test
-## License
+  ## Table of Contents
+  - [Description](##Description)
+  - [Installation](##Installation)
+  - [Usage](##Usage)
+  - [Contribution](##Contribution)
+  - [Test](##Test)
+  - [License](##License)
+  - [Questions](##Questions)
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+  ## Description
+    ${data.description}
 
----
+    ${data.descriptionTwo}
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+  ## Installation
+    ${data.installation}
 
-## GitHub
-- ${.gitHubLink}
+  ## Usage
+    ${data.usage}
 
+    ${data.usageTwo}
 
+  ## Contribution
+    ${data.contribution}
+
+  ## Test
+    ${data.test}
+
+  ## License
+    ${renderLicenseSection(data.license)}
+    ${renderLicenseLink(data.license)}
+
+  ## Questions
+    Additional questions or to report an issue, please reach out through the following:
+    - GitHub: ${data.github}
+    - E-mail: ${data.email}
+  
+
+  Thank you

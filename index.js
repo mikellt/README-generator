@@ -35,8 +35,8 @@ inquirer
         {
             name: "usageTwo",
             type: "list",
-            message: "Can you add images or screenshots once file is generated?",
-            choices: [ "Need to add image", "No image"]
+            message: "Can you add images, screenshots, or demo once file is generated?",
+            choices: [ "Need to add image/screenshot/demo,", "No image/screenshot/demo"]
         },
         {
             name: "contribution",
